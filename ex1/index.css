@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #0d0d0d, #262626);
+  color: white;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h1:hover,
+h2:hover {
+  color: pink;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+img {
+  border: 3px solid yellow;
+  margin-left: 350px;
+}
+
+h2 {
+  color: lime;
+}
+
+a {
+  color: yellow;
+  text-decoration: none; /* remove line under a href */
+}

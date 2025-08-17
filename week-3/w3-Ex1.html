@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Registration</h1>
+  </header>
+
+  <main>
+    <section>
+      <form action="#" >
+        <div>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div><br>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div><br>
+
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div><br>
+
+        <div>
+          <span>Gender:</span>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+        </div><br>
+
+        <div>
+          <label for="course">Select Course:</label>
+          <select id="course" name="course">
+            <option value="html">HTML Basics</option>
+            <option value="css">CSS Styling</option>
+            <option value="js">JavaScript</option>
+          </select>
+        </div><br>
+
+        <div>
+          <label for="bio">Short Biography:</label><br>
+          <textarea id="bio" name="bio" rows="4" required></textarea>
+        </div><br>
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: oemrachna@gmail.com</p>
+  </footer>
+
+</body>
+</html>

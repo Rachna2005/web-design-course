@@ -1,0 +1,32 @@
+/*
+body{
+    background-color: lightblue;
+
+    /* uncommon */
+    /* background-image: url("../../week-2/ex1/photo1.jpg"); */
+    /* background-position: center; 
+    background-size: auto;
+ 
+}
+
+*/
+
+
+/* 
+p{
+    /* background-color: lightskyblue; 
+    background-image: url("../../week-2/ex1/photo1.jpg"); 
+    color: purple;
+
+} 
+    
+*/
+
+
+.container {
+    background-color: lightskyblue;
+    background-image: url("../../week-2/ex1/photo1.jpg");
+    color: purple;
+
+}
+

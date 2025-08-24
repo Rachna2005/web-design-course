@@ -1,0 +1,23 @@
+/* p{
+    border :5px solid red;
+    padding: 10px;
+} */
+
+div > div{
+    border: solid red;
+    background-color:pink ;
+} 
+
+ 
+
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /* height: 100px;
+    width: 100px;
+    border: solid black; */
+}
+
+/* #item3{
+    align-self: flex-end;
+} */

@@ -21,12 +21,31 @@ p{
 } 
     
 */
+body{
+    /* background-image: url(images.jpeg);
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: 800px 300px */
+}
 
+/* .container {
+    background-color: rgb(250, 231, 135);
 
-.container {
-    background-color: lightskyblue;
-    background-image: url("../../week-2/ex1/photo1.jpg");
     color: purple;
 
+} */
+
+
+/* p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+} */
+
+
+div{
+    display: inline-block;
 }
 

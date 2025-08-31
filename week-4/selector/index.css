@@ -1,20 +1,21 @@
 
-/* Descendant ( All <p> inside <div> )
+
+/* Descendant ( All <p> inside <div> ) */
 div p { color: green; }
 
 /* Child (>) : Only direct child <p> of <div> */
-/* div > p { color: blue; } */
+div > p { color: blue; }
 
 /*Adjacent sibling (+) : Styles the <p> immediately after an <h1> */
-/* h1 + p { color: red; } */
+h1 + p { color: red; }
 
 /* General sibling (~) : Styles all <p> after an <h1>  */
- /* h1 ~ p { color: orange; }   */
+ h1 ~  p { color: orange; }  
 
 
- p:hover { color: blue; }
+  p:hover { color: blue; } 
 
- .first p:hover {
+ /* .first p:hover {
    color: red;
- }
+ } */
 

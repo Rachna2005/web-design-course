@@ -1,0 +1,105 @@
+/* absolute */
+
+ /* .parent {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+
+
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: orange;
+}  */
+
+
+/* .parent {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  position: relative; 
+}
+
+.child {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: orange;
+} */
+
+/* fixe */
+
+.parent {
+  width: 300px;
+  height: 2000px; 
+  background: lightblue;
+}
+
+.child-fixed {
+  position: fixed;
+  /* top: 20px;
+  right: 20px; */
+  background: green;
+  color: white;
+  /* padding: 10px; */
+  width: 100%;
+  height:20px;
+}
+
+/* sticky */
+
+/* .section {
+  height: 600px;
+  background: lightblue;
+  margin-bottom: 500px;
+}
+
+.sticky-title {
+  position: sticky;
+  top: 0;   
+  background: orange;
+  padding: 10px;
+} */
+
+/* .container {
+  display: flex;
+  gap: 20px;
+  height: 1500px; 
+}
+
+.sidebar {
+  position: sticky;
+  top: 20px;  
+  height: 200px;
+  background: lightgreen;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  background: #eee;
+} */
+
+/* .container {
+  height: 200px;
+  width: 1000px;
+  border: 2px solid blue;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0; 
+  background: lightgreen;
+  padding: 5px;
+} */
+
+
+
+/* p{
+  position: relative;
+  top: 20px;
+  left: 20px;
+} */
